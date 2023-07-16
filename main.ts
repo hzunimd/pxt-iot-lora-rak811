@@ -138,7 +138,7 @@ enum ADCPins {
 
 
 namespace IotLoRaNode {
-    serial.redirect(SerialPin.P2, SerialPin.P16, BaudRate.BaudRate115200);
+    serial.redirect(SerialPin.P16, SerialPin.P2, BaudRate.BaudRate115200);
     let payload = ""
     let regionsList: string[] = ["EU868", "US915", "AU915", "AS920"]
 
