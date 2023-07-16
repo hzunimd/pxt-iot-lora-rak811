@@ -1,7 +1,7 @@
 {
     "name": "IoTLoRaNode",
     "version": "0.1.39",
-    "description": "Package for Pi Supply IoT LoRa Node",
+    "description": "Package for RAK811 LoRa Breakout board",
     "license": "GPL V3",
     "dependencies": {
         "core": "*",
