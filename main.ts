@@ -157,9 +157,6 @@ namespace IotLoRaNode {
         */
         basic.clearScreen()
         led.plot(2, 4)
-        pins.digitalWritePin(DigitalPin.P16, 1)
-        basic.pause(500)
-        pins.digitalWritePin(DigitalPin.P16, 0)
         serial.readUntil(serial.delimiters(Delimiters.NewLine))
         serial.readUntil(serial.delimiters(Delimiters.NewLine))
         serial.readUntil(serial.delimiters(Delimiters.NewLine))
